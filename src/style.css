@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex-grow: 1;
+  box-sizing: border-box;
+  margin: 1px;
+  background-color: #f5f5f5;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.38);
+}
+
+.col::after {
+  display: block;
+  content: "";
+  padding-bottom: 100%;
+}
+
+.board.end .joint {
+  background-color: black;
+}
+
+.col.joint {
+  background-color: #ccc;
+}
+.col.fruit {
+  background-color: red;
+}
