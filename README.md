@@ -1,2 +1,2 @@
-# FAST CAMPUS School Hackthon
+# FAST CAMPUS School Hackathon
 # school-hackathon
